@@ -1,0 +1,9 @@
+SNAME=camp
+CAMP=$HOME/box/devcamp
+tmux new-session -d -s $SNAME -n zero -c "$HOME"
+tmux new-window -n devcamp -c "$CAMP"
+tmux send-keys -t devcamp.0 "s.devcamp" C-m
+tmux new-window -n camp2 -c "$CAMP"
+tmux new-window -n camp3 -c "$CAMP"
+tmux new-window -n camp4 -c "$CAMP"
+tmux a  -t $SNAME
