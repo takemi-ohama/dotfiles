@@ -1,0 +1,2 @@
+ssh -l ubuntu -i ~/.ssh/ietty_production.pem ec2-54-178-123-135.ap-northeast-1.compute.amazonaws.com
+

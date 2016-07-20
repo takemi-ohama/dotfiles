@@ -1,1 +1,2 @@
-ssh -l takemi.ohama -i ~/.ssh/id_rsa 54.150.242.115
+ssh -l hammer -i ~/.ssh/id_rsa bi01.ietty.co.jp 
+
